@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/eb4e47e033.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <script defer src="./js/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Signika+Negative:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Inkguy</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <section class="section-logo-container">
+          <img src="./assets/logo.png" alt="logo" />
+        </section>
+        <section class="section-links-container">
+          <ul>
+            <li>ABOUT US</li>
+            <li>PROJECTS</li>
+            <li>PRICES</li>
+            <li>CONTACTS</li>
+          </ul>
+          <i class="fa-solid fa-bars"></i>
+        </section>
+      </nav>
+      <section class="section-working-container">
+        <img src="./assets/background.jpg" alt="" />
+        <div class="background-info-container hidden">
+          <p class="background-title">Tatto Studio In Monterrey</p>
+          <p class="background-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            perferendis fugiat earum magni ab deleniti dolore iste reiciendis
+            eveniet amet. Fugit laborum consectetur iure nesciunt numquam
+            laboriosam cum cupiditate a.
+          </p>
+          <button class="appointment-button hidden">Lorem ipsum</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="section-about-us">
+        <div class="col-12 col-md-6 about-us--info-container">
+          <p class="about-us--text-title hidden about-us-transition">
+            About us
+          </p>
+          <p class="about-us--text-body hidden about-us-transition">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            quos nisi magnam, explicabo eaque illum inventore, pariatur corporis
+            quisquam consequuntur libero, excepturi eligendi saepe culpa enim
+            perferendis cumque sapiente nostrum?
+          </p>
+          <button class="appointment-button hidden about-us-transition">
+            Lorem ipsum
+          </button>
+        </div>
+        <div class="col-12 col-md-6 about-us--img-container">
+          <img src="./assets/about-us-background.jpg" alt="" class="hidden" />
+        </div>
+      </section>
+      <section class="section-projects">
+        <p class="project-text-title hidden">Projects</p>
+        <div class="desktop-imgs">
+          <div class="line-row hidden">
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8099.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8100.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8101.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8102.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8103.jpg" />
+            </div>
+          </div>
+          <div class="line-row hidden">
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8104.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8105.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8106.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8107.jpg" />
+            </div>
+            <div class="img-container">
+              <img src="./assets/project-images/IMG_8108.jpg" />
+            </div>
+          </div>
+        </div>
+        <swiper-container
+          style="
+            --swiper-navigation-color: #fff;
+            --swiper-pagination-color: #fff;
+          "
+          class="mySwiper hidden"
+          thumbs-swiper=".mySwiper2"
+          space-between="10"
+          navigation="true"
+        >
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8099.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8100.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8101.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8102.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8103.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8104.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8105.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8106.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8107.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8108.jpg" />
+          </swiper-slide>
+        </swiper-container>
+
+        <swiper-container
+          class="mySwiper2 hidden"
+          space-between="10"
+          slides-per-view="4"
+          free-mode="true"
+          watch-slides-progress="true"
+        >
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8099.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8100.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8101.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="./assets/project-images/IMG_8102.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8103.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8104.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8105.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8106.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8107.jpg" />
+          </swiper-slide>
+          <swiper-slide>
+            <img src="assets/project-images/IMG_8108.jpg" />
+          </swiper-slide>
+        </swiper-container>
+      </section>
+      <section class="section-contact">
+        <iframe
+          class="map hidden"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d899.7160365024409!2d-100.23481617077836!3d25.57618620867527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfab3d26af4133350!2zMjXCsDM0JzM0LjMiTiAxMDDCsDE0JzAzLjQiVw!5e0!3m2!1ses-419!2smx!4v1677120917896!5m2!1ses-419!2smx"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="contact-form hidden">
+          <p class="contact-form-title">Contact</p>
+          <form class="form">
+            <input
+              type="text"
+              id="nombre"
+              placeholder="Nombre"
+              class="form-input"
+              autocomplete="off"
+            />
+            <input
+              type="number"
+              id="numero"
+              placeholder="Numero de telefono"
+              class="form-input"
+              autocomplete="off"
+            />
+            <textarea
+              name=""
+              placeholder="Más información"
+              autocomplete="off"
+              id=""
+              class="form-text-area"
+            ></textarea>
+          </form>
+          <p class="contact-form-info">
+            Dando tu información, tú estás de acuerdo con la
+            <a href="#" class="policy-text">politica de privacidad</a>
+          </p>
+          <button class="appointment-button">Lorem ipsum</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-links">
+        <ul>
+          <li>ABOUT US</li>
+          <li>PROJECTS</li>
+          <li>PRICES</li>
+          <li>CONTACTS</li>
+        </ul>
+      </section>
+      <section class="footer-social-media">
+        <ul>
+          <li>81 8888 8888</li>
+          <li>BREST, VOROVSKOGO, 25/184</li>
+          <li>MON - SUN: 11 A.M. - 11 P.M.</li>
+          <li>PRIVACY POLICY</li>
+        </ul>
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
